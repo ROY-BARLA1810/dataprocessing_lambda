@@ -50,7 +50,7 @@ export const handler = async (event, context) => {
         ContentType,
       })
     );
-    const message = `Successfully resized ${srcBucket}/${srcKey} and uploaded to ${DEST_BUCKET}/${srcKey}`;
+    const message = `Dataprocessed Successfully ${srcBucket}/${srcKey} and uploaded to ${DEST_BUCKET}/${srcKey}`;
     console.log(message);
     return {
       statusCode: 200,
